@@ -53,7 +53,7 @@ option(SOL2_INTEROP_EXAMPLES "Enable build of interop examples" OFF)
 option(SOL2_DYNAMIC_LOADING_EXAMPLES "Enable build of interop examples" OFF)
 option(SOL2_SINGLE "Enable generation and build of single header files" OFF)
 option(SOL2_DOCS "Enable build of documentation" OFF)
-option(SOL2_ENABLE_INSTALL "Enable installation of Sol2" ON)
+option(SOL2_ENABLE_INSTALL "Enable installation of Sol2" OFF)
 # Single tests and examples tests will only be turned on if both SINGLE and TESTS are defined
 CMAKE_DEPENDENT_OPTION(SOL2_TESTS_SINGLE "Enable build of tests using the premade single headers" ON
 	"SOL2_SINGLE;SOL2_TESTS" OFF)
